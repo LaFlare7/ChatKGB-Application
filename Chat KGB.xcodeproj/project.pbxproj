@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D56F6ECF29C7269A005AEDB4 /* Extencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56F6ECE29C7269A005AEDB4 /* Extencion.swift */; };
+		D5B2096929C37EBE0031C52F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2096829C37EBE0031C52F /* AppDelegate.swift */; };
+		D5B2096B29C37EBE0031C52F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2096A29C37EBE0031C52F /* SceneDelegate.swift */; };
+		D5B2096D29C37EBE0031C52F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2096C29C37EBE0031C52F /* ViewController.swift */; };
+		D5B2097029C37EBE0031C52F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B2096E29C37EBE0031C52F /* Main.storyboard */; };
+		D5B2097229C37EC00031C52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B2097129C37EC00031C52F /* Assets.xcassets */; };
+		D5B2097529C37EC00031C52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5B2097329C37EC00031C52F /* LaunchScreen.storyboard */; };
+		D5B2097F29C4D08C0031C52F /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2097E29C4D08C0031C52F /* LaunchViewController.swift */; };
+		D5B2098129C4D1650031C52F /* AutorisationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2098029C4D1650031C52F /* AutorisationViewController.swift */; };
+		D5B2098329C4D1890031C52F /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2098229C4D1890031C52F /* PhoneViewController.swift */; };
+		D5B2098529C4D1BA0031C52F /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2098429C4D1BA0031C52F /* CodeViewController.swift */; };
+		D5B2098729C4D1D60031C52F /* SetProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2098629C4D1D60031C52F /* SetProfileViewController.swift */; };
+		D5B2098929C4D1F70031C52F /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2098829C4D1F70031C52F /* ChatsViewController.swift */; };
+		D5B2098C29C4D2170031C52F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2098B29C4D2170031C52F /* SettingsViewController.swift */; };
+		D5B2098E29C4D2220031C52F /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2098D29C4D2220031C52F /* ContactsViewController.swift */; };
+		D5B2099029C4F6920031C52F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2098F29C4F6920031C52F /* Button.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D56F6ECE29C7269A005AEDB4 /* Extencion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extencion.swift; sourceTree = "<group>"; };
+		D5B2096529C37EBE0031C52F /* Chat KGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat KGB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B2096829C37EBE0031C52F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5B2096A29C37EBE0031C52F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5B2096C29C37EBE0031C52F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5B2096F29C37EBE0031C52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5B2097129C37EC00031C52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5B2097429C37EC00031C52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5B2097629C37EC00031C52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B2097E29C4D08C0031C52F /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		D5B2098029C4D1650031C52F /* AutorisationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorisationViewController.swift; sourceTree = "<group>"; };
+		D5B2098229C4D1890031C52F /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		D5B2098429C4D1BA0031C52F /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		D5B2098629C4D1D60031C52F /* SetProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetProfileViewController.swift; sourceTree = "<group>"; };
+		D5B2098829C4D1F70031C52F /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		D5B2098B29C4D2170031C52F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D5B2098D29C4D2220031C52F /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		D5B2098F29C4F6920031C52F /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5B2096229C37EBE0031C52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D56F6ED029C726A1005AEDB4 /* Extencions */ = {
+			isa = PBXGroup;
+			children = (
+				D56F6ECE29C7269A005AEDB4 /* Extencion.swift */,
+			);
+			path = Extencions;
+			sourceTree = "<group>";
+		};
+		D5B2095C29C37EBE0031C52F = {
+			isa = PBXGroup;
+			children = (
+				D5B2096729C37EBE0031C52F /* Chat KGB */,
+				D5B2096629C37EBE0031C52F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B2096629C37EBE0031C52F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5B2096529C37EBE0031C52F /* Chat KGB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5B2096729C37EBE0031C52F /* Chat KGB */ = {
+			isa = PBXGroup;
+			children = (
+				D5B2097C29C4CF4E0031C52F /* Supporting files */,
+				D5B2097D29C4CF630031C52F /* Views */,
+				D5B2098A29C4D2080031C52F /* Controllers */,
+				D56F6ED029C726A1005AEDB4 /* Extencions */,
+			);
+			path = "Chat KGB";
+			sourceTree = "<group>";
+		};
+		D5B2097C29C4CF4E0031C52F /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				D5B2096829C37EBE0031C52F /* AppDelegate.swift */,
+				D5B2096A29C37EBE0031C52F /* SceneDelegate.swift */,
+				D5B2097129C37EC00031C52F /* Assets.xcassets */,
+				D5B2097629C37EC00031C52F /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		D5B2097D29C4CF630031C52F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5B2096E29C37EBE0031C52F /* Main.storyboard */,
+				D5B2097329C37EC00031C52F /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5B2098A29C4D2080031C52F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5B2096C29C37EBE0031C52F /* ViewController.swift */,
+				D5B2097E29C4D08C0031C52F /* LaunchViewController.swift */,
+				D5B2098029C4D1650031C52F /* AutorisationViewController.swift */,
+				D5B2098429C4D1BA0031C52F /* CodeViewController.swift */,
+				D5B2098229C4D1890031C52F /* PhoneViewController.swift */,
+				D5B2098629C4D1D60031C52F /* SetProfileViewController.swift */,
+				D5B2098829C4D1F70031C52F /* ChatsViewController.swift */,
+				D5B2098B29C4D2170031C52F /* SettingsViewController.swift */,
+				D5B2098D29C4D2220031C52F /* ContactsViewController.swift */,
+				D5B2098F29C4F6920031C52F /* Button.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5B2096429C37EBE0031C52F /* Chat KGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B2097929C37EC00031C52F /* Build configuration list for PBXNativeTarget "Chat KGB" */;
+			buildPhases = (
+				D5B2096129C37EBE0031C52F /* Sources */,
+				D5B2096229C37EBE0031C52F /* Frameworks */,
+				D5B2096329C37EBE0031C52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chat KGB";
+			productName = "Chat KGB";
+			productReference = D5B2096529C37EBE0031C52F /* Chat KGB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5B2095D29C37EBE0031C52F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D5B2096429C37EBE0031C52F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = D5B2096029C37EBE0031C52F /* Build configuration list for PBXProject "Chat KGB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5B2095C29C37EBE0031C52F;
+			productRefGroup = D5B2096629C37EBE0031C52F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5B2096429C37EBE0031C52F /* Chat KGB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5B2096329C37EBE0031C52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B2097529C37EC00031C52F /* LaunchScreen.storyboard in Resources */,
+				D5B2097229C37EC00031C52F /* Assets.xcassets in Resources */,
+				D5B2097029C37EBE0031C52F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5B2096129C37EBE0031C52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B2096D29C37EBE0031C52F /* ViewController.swift in Sources */,
+				D5B2098E29C4D2220031C52F /* ContactsViewController.swift in Sources */,
+				D5B2098529C4D1BA0031C52F /* CodeViewController.swift in Sources */,
+				D56F6ECF29C7269A005AEDB4 /* Extencion.swift in Sources */,
+				D5B2098129C4D1650031C52F /* AutorisationViewController.swift in Sources */,
+				D5B2098C29C4D2170031C52F /* SettingsViewController.swift in Sources */,
+				D5B2096929C37EBE0031C52F /* AppDelegate.swift in Sources */,
+				D5B2098329C4D1890031C52F /* PhoneViewController.swift in Sources */,
+				D5B2099029C4F6920031C52F /* Button.swift in Sources */,
+				D5B2098729C4D1D60031C52F /* SetProfileViewController.swift in Sources */,
+				D5B2096B29C37EBE0031C52F /* SceneDelegate.swift in Sources */,
+				D5B2098929C4D1F70031C52F /* ChatsViewController.swift in Sources */,
+				D5B2097F29C4D08C0031C52F /* LaunchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5B2096E29C37EBE0031C52F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5B2096F29C37EBE0031C52F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5B2097329C37EC00031C52F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5B2097429C37EC00031C52F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5B2097729C37EC00031C52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5B2097829C37EC00031C52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5B2097A29C37EC00031C52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YS78GFHR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chat KGB/Supporting files/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "For selecting a photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZVM-Group.Chat-KGB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5B2097B29C37EC00031C52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YS78GFHR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chat KGB/Supporting files/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "For selecting a photo";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZVM-Group.Chat-KGB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5B2096029C37EBE0031C52F /* Build configuration list for PBXProject "Chat KGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B2097729C37EC00031C52F /* Debug */,
+				D5B2097829C37EC00031C52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B2097929C37EC00031C52F /* Build configuration list for PBXNativeTarget "Chat KGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B2097A29C37EC00031C52F /* Debug */,
+				D5B2097B29C37EC00031C52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5B2095D29C37EBE0031C52F /* Project object */;
+}
